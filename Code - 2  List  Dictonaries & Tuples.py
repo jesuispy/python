@@ -1,4 +1,4 @@
-store = ["some string", 123, "test"] #example list with intergers
+store = ["some string", 1234, "test"] #example list with intergers
 
 print(store)
 
@@ -6,7 +6,7 @@ store.append("addition to list") #adding item to list
 print(store)
 
 store.pop()
-print(store) #remove last item on list
+print(".pop last value from list", store) #remove last item on list
 
 print(len(store)) #displays lenght of var store
 
