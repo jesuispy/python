@@ -17,7 +17,9 @@ print (4 ** 10) #to the power
 print (10 % 9) #modulo
 
 
-print(bin(8)) #print machine equavalent
+print(bin(8)) #print machine equavalent bin_
 print(int('0b1000', 2)) #convert to base 2
+
+
 
 
