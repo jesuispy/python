@@ -14,3 +14,11 @@ def initials(phrase):
 print(initials("Universal Serial Bus")) # Should be: USB
 print(initials("local area network")) # Should be: LAN
 print(initials("Operating system")) # Should be: OS
+
+#Modify the student_grade function using the format method, so that it returns the phrase "X received Y% on the exam". For example, student_grade("Reed", 80) should return "Reed received 80% on the exam".
+def exam_score(name, grade):
+	return "{} received {}% on the exam".format(name,grade)
+
+print(exam_score("Reed", 80))
+print(exam_score("Paige", 92))
+print(exam_score("Jesse", 85))
